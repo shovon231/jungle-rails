@@ -23,6 +23,19 @@
   <% end %>
   </tbody>
 </table>
+<<<<<<< HEAD
+=======
+ <tfoot>
+          <tr>
+            <th colspan="4">
+              TOTAL:
+            </th>
+            <th>
+              <%= humanized_money_with_symbol @order.total_cents / 100.0 %>
+            </th>
+          </tr>
+        </tfoot>
+>>>>>>> feature/order-details
 
   <%= link_to "Continue Shopping", root_path, class: 'btn btn-lg btn-primary' %>
 
